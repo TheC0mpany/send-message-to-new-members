@@ -1,1 +1,1 @@
-#Send message to new members | Discord
+# Send message to new members | Discord
