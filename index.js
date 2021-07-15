@@ -11,7 +11,7 @@ client.on ("ready", () => {
 // MP message
 client.on ('guildMemberAdd', member => {
    member.createDM (). then (channel => {
-     return channel.send ('yourmessage' + member.displayName);
+     return channel.send ('https://github.com/TheC0mpany/send-message-to-new-members' + member.displayName);
    }). catch (console.error);
 })
 
